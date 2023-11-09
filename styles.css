@@ -18,6 +18,7 @@ h1 {
 
 img {
     display: block;
+    border: 10px solid rgb(88, 88, 206);
     border-radius: 15px;
 }
 
