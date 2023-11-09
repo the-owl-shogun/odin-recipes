@@ -10,13 +10,14 @@ h1 {
 .links {
     display: inline-block;
     padding: 0.5rem;
-    border-radius: 5%;
+    border-radius: 10px;
     background-color: rgb(54, 78, 214);
     color: whitesmoke;
 }
 
 img {
     display: block;
+    border-radius: 15px;
 }
 
 a:link, a:visited {
