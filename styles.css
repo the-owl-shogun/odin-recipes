@@ -9,3 +9,12 @@ body {
     background-color: rgb(54, 78, 214);
     color: whitesmoke;
 }
+
+a:link, a:visited {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 203, 73);
+}
