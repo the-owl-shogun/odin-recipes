@@ -41,13 +41,6 @@ p {margin-bottom: 20px;}
     padding: 50px;
 }
 
-.links {
-    display: inline-block;
-    padding: 0.5rem;
-    border-radius: 10px;
-    background-color: rgb(54, 78, 214);
-    color: whitesmoke;
-}
 
 img {
     display: block;
@@ -63,8 +56,6 @@ button {
     background-color: rgb(54, 78, 214);
     color: whitesmoke;
     margin: 0px 5px 15px 5px
-
-
 }
 
 button:hover {
@@ -82,12 +73,10 @@ a:link, a:visited {
     border-radius: 10px;
     padding: 12px 10px 15px 10px;
     color: white;
+    margin-bottom: 20px;
 }
 
-.ingredient-box h2 {
-    text-transform: uppercase;
-}
-
+.ingredient-box h2 {text-transform: uppercase;}
 
 .ingredient-box ul li {
     display: inline-block;
@@ -96,6 +85,27 @@ a:link, a:visited {
     margin-top: 15px;
     vertical-align: auto;
     padding: 5px;
+}
+
+.instructions-box {
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+    text-align: left;
+    padding: 12px;
+    margin-bottom: 20px;
+}
+
+.instructions-box h2 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.instructions-box ol li {
+    text-align: left;
+    list-style-position: inside;
+    padding: 10px;
+    margin: 5px 15px 5px 15px;
 }
 
 
