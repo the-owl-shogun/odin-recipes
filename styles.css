@@ -18,7 +18,12 @@ body {
     background-color: rgb(182, 182, 182);
 }
 
-.recipe-notes ul {list-style: none;}
+.recipe-notes ul li {
+    list-style: none;
+    display: inline-block;
+    width: 150px;
+    margin-top: 20px;
+}
 
 h1 {text-transform: uppercase;}
 
