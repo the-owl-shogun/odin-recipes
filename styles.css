@@ -28,6 +28,7 @@ p {margin-bottom: 20px;}
     width: 600px;
     text-align: center;
     background-color: whitesmoke;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.7);
     margin: 20px auto;
     padding: 50px;
 }
