@@ -25,7 +25,10 @@ body {
     margin-top: 20px;
 }
 
-h1 {text-transform: uppercase;}
+h1 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
 
 p {margin-bottom: 20px;}
 
