@@ -11,8 +11,23 @@ body {
     background-color:rgb(150, 198, 236);
 }
 
-h1 {
-    text-transform: uppercase;
+.container {
+    width: 800px;
+    border: 2px solid red;
+}
+
+.recipe-notes ul {list-style: none;}
+
+h1 {text-transform: uppercase;}
+
+p {margin-bottom: 20px;}
+
+.recipe-content {
+    width: 600px;
+    text-align: center;
+    background-color: whitesmoke;
+    margin: 20px auto;
+    padding: 50px;
 }
 
 .links {
