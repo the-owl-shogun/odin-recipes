@@ -55,11 +55,25 @@ img {
     border-radius: 15px;
 }
 
+button {
+    display: inline-block;
+    border: none;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: rgb(54, 78, 214);
+    color: whitesmoke;
+    margin: 0px 5px 15px 5px
+
+
+}
+
+button:hover {
+    color: rgb(248, 217, 138);
+    background-color: rgb(40, 57, 153);
+}
+
 a:link, a:visited {
     color: whitesmoke;
     text-decoration: none;
 }
 
-a:hover {
-    color: rgb(255, 203, 73);
-}
